@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Building2, Presentation } from "lucide-react";
+import { ArrowLeft, ArrowRight, Building2, Presentation } from "lucide-react";
 import logo from "../Assets/ACLAS Logo Png.png";
 import Navigation from "./components/Navigation";
 import Slide from "./components/Slide";
@@ -206,7 +206,7 @@ function App() {
           </AnimatePresence>
         </div>
 
-        <div className="pointer-events-none absolute bottom-6 left-0 right-0 z-20 flex justify-center px-4">
+        <div className="pointer-events-none absolute bottom-[calc(env(safe-area-inset-bottom)+0.75rem)] left-0 right-0 z-20 flex justify-center px-4">
           <Navigation
             activeIndex={activeIndex}
             totalSlides={totalSlides}
@@ -216,6 +216,27 @@ function App() {
             soundEnabled={soundEnabled}
             onToggleSound={() => setSoundEnabled((current) => !current)}
           />
+        </div>
+
+        <div className="pointer-events-none absolute inset-y-0 left-0 right-0 z-20 flex items-center justify-between px-2 sm:hidden">
+          <button
+            type="button"
+            onClick={previousSlide}
+            disabled={activeIndex === 0}
+            className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/55 text-white shadow-card transition hover:border-sky/45 hover:bg-sky/20 disabled:opacity-35"
+            aria-label="Previous slide"
+          >
+            <ArrowLeft className="h-5 w-5" />
+          </button>
+          <button
+            type="button"
+            onClick={nextSlide}
+            disabled={activeIndex === totalSlides - 1}
+            className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/55 text-white shadow-card transition hover:border-sky/45 hover:bg-sky/20 disabled:opacity-35"
+            aria-label="Next slide"
+          >
+            <ArrowRight className="h-5 w-5" />
+          </button>
         </div>
 
         <div className="pointer-events-none absolute bottom-7 right-6 hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 lg:flex">

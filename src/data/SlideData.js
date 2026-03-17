@@ -682,14 +682,14 @@ export const slides = [
     links: [
       {
         label: "Call",
-        value: "+91 9946508965",
-        href: "tel:+919946508965",
+        value: "+91 9946508065",
+        href: "tel:+919946508065",
         icon: "contact",
       },
       {
         label: "WhatsApp",
-        value: "+91 9946508965",
-        href: "https://wa.me/919946508965",
+        value: "+91 9946508065",
+        href: "https://wa.me/919946508065",
         icon: "whatsapp",
         external: true,
       },
