@@ -245,10 +245,6 @@ function App() {
           </button>
         </div>
 
-        <div className="pointer-events-none absolute bottom-7 right-6 hidden items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300 lg:flex">
-          <Building2 className="h-4 w-4 text-sky" />
-          Premium presentation website
-        </div>
       </div>
     </main>
   );
