@@ -6,12 +6,12 @@ export const slides = [
     title: "ACLAS Integrated Digital Marketing Strategy",
     subtitle: "Duration: March 18 to September 15",
     description:
-      "A slide-based strategic website deck designed to position ACLAS as the most trusted healthcare and career-focused college in Malappuram.",
+      "A strategic deck to position ACLAS as Malappuram's most trusted healthcare and career-focused college.",
     meta: {
       icon: "calendar",
       title: "Campaign Window",
       copy:
-        "This proposal covers the full admission cycle from early awareness through late-admission capture.",
+        "Covers the full admission cycle, from early awareness to late-admission capture.",
     },
     highlights: [
       { kicker: "Core Goal", title: "Trust-led positioning", icon: "target" },
@@ -33,14 +33,14 @@ export const slides = [
     id: "objective",
     type: "objective",
     eyebrow: "Strategic Objective",
-    title: "Position ACLAS as the most trusted healthcare + career-focused college in Malappuram.",
+    title: "Position ACLAS as Malappuram's most trusted healthcare career college.",
     description:
-      "The proposal is built around trust, hospital-backed credibility, and stronger decision confidence for students and parents.",
+      "Built on trust, hospital-backed credibility, and stronger decision confidence for students and parents.",
     meta: {
       icon: "target",
       title: "Brand Anchor",
       copy:
-        "ACLAS should be understood as a college where real-world hospital exposure turns academic choice into clear career direction.",
+        "ACLAS should be seen as the college where hospital exposure leads to clear career direction.",
     },
     objectives: [
       {
@@ -74,14 +74,14 @@ export const slides = [
     id: "programs",
     type: "programs",
     eyebrow: "Program Focus",
-    title: "A dual-track promotion system with a strong healthcare core and continuous supporting-course visibility.",
+    title: "Dual-track promotion with a strong healthcare core and continuous support-course visibility.",
     description:
-      "The revised plan gives extra visibility to the highest-conversion courses while ensuring all supporting programs stay in the admission conversation.",
+      "Gives extra visibility to high-conversion courses while keeping all supporting programs active.",
     meta: {
       icon: "program",
       title: "Revised Focus",
       copy:
-        "Primary push goes to the healthcare courses with the fastest conversion potential, while the wider catalog runs in parallel.",
+        "Primary push is on high-conversion healthcare courses, while the wider catalog runs in parallel.",
     },
     coreCourses: [
       "BSc Medical Imaging Technology",
@@ -104,11 +104,11 @@ export const slides = [
     title: "Attention Capture",
     subtitle: "March 18 to April 15",
     description:
-      "Students have just finished exams and are still in browsing mode. The goal is simple: make ACLAS visible everywhere.",
+      "Students are in browsing mode after exams. Goal: make ACLAS visible everywhere.",
     meta: {
       icon: "calendar",
       title: "Student Psychology",
-      copy: "Early-stage scrolling behavior requires reach, repetition, and broad awareness-building.",
+      copy: "Early-stage scrolling needs broad reach and repeated visibility.",
     },
     audience: "Students just finished exams and are in a scrolling phase.",
     goal: "Make ACLAS visible everywhere.",
@@ -165,11 +165,11 @@ export const slides = [
     title: "Interest Building",
     subtitle: "April 15 to May 30",
     description:
-      "Students start researching seriously in this phase, so messaging has to deepen from visibility into trust, clarity, and course understanding.",
+      "Students start serious research, so messaging must shift from visibility to trust and clarity.",
     meta: {
       icon: "growth",
       title: "Student Psychology",
-      copy: "This is the research phase, where detail, proof, and student exposure become more persuasive than broad reach.",
+      copy: "In this research phase, details, proof, and exposure matter more than broad reach.",
     },
     audience: "Students are actively comparing courses, institutions, and outcomes.",
     goal: "Build trust and clarity.",
@@ -224,11 +224,11 @@ export const slides = [
     title: "Peak Admission Window",
     subtitle: "June 1 to July 15",
     description:
-      "Results are out and decisions happen fast. This phase should maximize inquiry volume and conversion speed with urgency-led content and follow-up.",
+      "Results are out and decisions are fast. Focus on inquiry volume, urgency, and quick conversion.",
     meta: {
       icon: "target",
       title: "Decision Window",
-      copy: "At this stage, clear urgency and operational response speed influence conversion heavily.",
+      copy: "Urgency and fast response drive conversion in this stage.",
     },
     audience: "Results are out and students are actively choosing where to enroll.",
     goal: "Maximize inquiries and conversions.",
@@ -283,11 +283,11 @@ export const slides = [
     title: "Late Admissions",
     subtitle: "July 15 to September 15",
     description:
-      "This phase targets late decision makers and backup-option seekers using optimized retargeting and seat-availability messaging.",
+      "Targets late decision-makers and backup-option seekers with retargeting and seat messaging.",
     meta: {
       icon: "calendar",
       title: "Late Decision Segment",
-      copy: "Retarget past visitors, push remaining seats, and keep diploma offers visible for students still deciding.",
+      copy: "Retarget past visitors, push remaining seats, and keep diploma offers visible.",
     },
     audience: "Late decision makers and students comparing backup options.",
     goal: "Capture the remaining students still in the market.",
@@ -321,14 +321,14 @@ export const slides = [
     id: "channels",
     type: "channels",
     eyebrow: "Marketing Channels",
-    title: "A synchronized digital execution stack across SEO, social content, ads, and WhatsApp.",
+    title: "A synchronized digital stack across SEO, social, ads, and WhatsApp.",
     description:
-      "The proposal combines platform execution with an ongoing content system so ACLAS stays visible in search, social feeds, and follow-up conversations.",
+      "Combines platform execution and content so ACLAS stays visible in search, social, and follow-up.",
     meta: {
       icon: "channel",
       title: "Execution Engine",
       copy:
-        "SEO, GMB, social platforms, paid media, and WhatsApp work as one connected admissions pipeline.",
+        "SEO, GMB, social, paid media, and WhatsApp work as one admissions pipeline.",
     },
     channels: [
       {
@@ -374,12 +374,12 @@ export const slides = [
     eyebrow: "Budget Slide",
     title: "Monthly Ad Spend Summary",
     description:
-      "This estimate shows how media investment increases with admission intent and peaks during the most conversion-sensitive window.",
+      "Shows how media spend rises with admission intent and peaks in the highest-conversion window.",
     meta: {
       icon: "budget",
       title: "Ad Investment View",
       copy:
-        "Total ad spend estimate is fixed at INR 1,49,000 across the campaign phases.",
+        "Total ad spend is fixed at INR 1,49,000 across all phases.",
     },
     rows: [
       {
@@ -423,14 +423,14 @@ export const slides = [
     id: "collaboration",
     type: "collaboration",
     eyebrow: "Collaboration Model",
-    title: "This is not outsourced marketing. This is joint execution.",
+    title: "Not outsourced marketing. Joint execution.",
     description:
-      "The proposal positions ACLAS as an active production partner so the content feels authentic, scalable, and cost-efficient.",
+      "Positions ACLAS as an active production partner for authentic, scalable, and cost-efficient content.",
     meta: {
       icon: "team",
       title: "Core Strength",
       copy:
-        "A hybrid internal-production model helps ACLAS create more believable content with lower operational cost and better brand fit.",
+        "A hybrid internal model helps ACLAS create credible content at lower cost and better brand fit.",
     },
     columns: [
       {
@@ -482,12 +482,12 @@ export const slides = [
     eyebrow: "Offline Marketing",
     title: "Digital should lead, but local visibility and campus perception still matter.",
     description:
-      "The proposal recommends focused offline activity to strengthen recognition, trust, and physical-visit confidence.",
+      "Recommends focused offline activity to strengthen recognition, trust, and visit confidence.",
     meta: {
       icon: "offline",
       title: "Recommendation",
       copy:
-        "Offline support works best when it reinforces what students already see online and helps the campus experience match the message.",
+        "Offline support works best when it reinforces online messaging and campus experience.",
     },
     priorities: [
       {
@@ -526,14 +526,14 @@ export const slides = [
     id: "requirements",
     type: "requirements",
     eyebrow: "Requirements Slide",
-    title: "What ACLAS must provide to execute the strategy effectively.",
+    title: "What ACLAS must provide for effective execution.",
     description:
-      "The proposal calls for detailed institutional information and access so messaging can be accurate, persuasive, and operationally useful.",
+      "Requires detailed institutional data and access for accurate, persuasive execution.",
     meta: {
       icon: "checklist",
       title: "Execution Inputs",
       copy:
-        "Without detailed academic, placement, hospital, faculty, facility, and student insight data, the strategy cannot be executed at full quality.",
+        "Without detailed academic, placement, hospital, faculty, facility, and student data, execution quality drops.",
     },
     groups: [
       {
@@ -598,14 +598,14 @@ export const slides = [
     id: "outcome",
     type: "outcome",
     eyebrow: "Expected Outcome",
-    title: "An admission engine with visible inquiry volume and stronger conversion potential.",
+    title: "An admission engine with strong inquiry volume and conversion potential.",
     description:
-      "The proposal frames success in terms of measurable lead flow, all-course admissions, and paramedical enrollment growth.",
+      "Success is measured through lead flow, all-course admissions, and paramedical growth.",
     meta: {
       icon: "growth",
       title: "Target Output",
       copy:
-        "Performance is measured not only by inquiries, but by how efficiently those leads move toward visits and admissions.",
+        "Performance is measured by inquiries and how efficiently leads move to visits and admissions.",
     },
     metrics: [
       {
@@ -634,12 +634,12 @@ export const slides = [
     eyebrow: "Final Budget Slide",
     title: "Overall Budget Estimate",
     description:
-      "The proposal combines ad spend, tools, service execution, influencer activity, backlinks, and offline visibility into one overall campaign budget.",
+      "Combines ad spend, tools, service execution, influencer activity, backlinks, and offline visibility.",
     meta: {
       icon: "budget",
       title: "Total Campaign Budget",
       copy:
-        "The overall estimate is designed to maximize admissions with controlled investment and a mix of digital performance plus local visibility.",
+        "Designed to maximize admissions with controlled investment across digital performance and local visibility.",
     },
     items: [
       { title: "Ads", value: "INR 1,50,000" },
@@ -658,12 +658,12 @@ export const slides = [
     eyebrow: "Final Positioning",
     title: "Own the hospital-backed career space.",
     description:
-      "The strategy culminates in a clear brand promise that students and parents can remember instantly.",
+      "Ends with a clear brand promise students and parents can remember quickly.",
     meta: {
       icon: "hospital",
       title: "Brand Statement",
       copy:
-        "This is the line the entire campaign should repeatedly reinforce across website, content, ads, and sales conversations.",
+        "This line should be reinforced across website, content, ads, and sales conversations.",
     },
   },
   {
@@ -672,12 +672,12 @@ export const slides = [
     eyebrow: "Contact Information",
     title: "Contact and next conversation links.",
     description:
-      "Built-in direct actions make the final slide immediately usable for review, follow-up, and proposal approval.",
+      "Direct actions make the final slide ready for review, follow-up, and approval.",
     meta: {
       icon: "contact",
       title: "Direct Access",
       copy:
-        "Phone, WhatsApp, and email are all set up as clickable actions on the final slide.",
+        "Phone, WhatsApp, and email are set as clickable actions on the final slide.",
     },
     links: [
       {
