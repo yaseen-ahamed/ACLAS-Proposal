@@ -190,6 +190,12 @@ function App() {
           />
         </div>
 
+        <div className="mx-auto mt-2 flex w-full max-w-7xl justify-end sm:hidden">
+          <div className="rounded-full border border-white/15 bg-black/45 px-3 py-1 text-sm font-semibold text-white">
+            {activeIndex + 1} / {totalSlides}
+          </div>
+        </div>
+
         <div className="relative mx-auto mt-4 flex min-h-0 w-full max-w-7xl flex-1 pb-28 md:pb-24">
           <AnimatePresence custom={direction} initial={false} mode="wait">
             <motion.div
@@ -206,7 +212,7 @@ function App() {
           </AnimatePresence>
         </div>
 
-        <div className="pointer-events-none absolute bottom-[calc(env(safe-area-inset-bottom)+0.75rem)] left-0 right-0 z-20 flex justify-center px-4">
+        <div className="pointer-events-none absolute bottom-[calc(env(safe-area-inset-bottom)+0.75rem)] left-0 right-0 z-20 hidden justify-center px-4 sm:flex">
           <Navigation
             activeIndex={activeIndex}
             totalSlides={totalSlides}
